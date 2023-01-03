@@ -1,10 +1,9 @@
 const express = require('express');
-const compression = require('compression');
 const router = express.Router();
 const path = require('path')
 const os = require('os');
 
-router.get('/', /* compression(), */(req, res) => {
+router.get('/', (req, res) => {
     let data = {
         argv: process.argv.slice(2),
         memory: process.memoryUsage().rss,
@@ -15,7 +14,6 @@ router.get('/', /* compression(), */(req, res) => {
         path: process.execPath,
         cpus: os.cpus().length
     }
-    console.log(data)
     res.render(path.join(process.cwd(), 'Public/views/pages/info.ejs'), { data })
 })
 
