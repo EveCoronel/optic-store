@@ -1,4 +1,4 @@
-# Cookies and session
+# Optic Store
 
 A través de esta web se podrá hacer uso de la base de datos para guardar productos y consultar los mismos. Por otro lado, la web incluye un chat para promover la comunicación entre los usuarios.
 
