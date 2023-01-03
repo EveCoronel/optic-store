@@ -1,4 +1,3 @@
-// @ts-nocheck
 const Products = require('./models/products.mongo')
 const Messages = require('./models/messages');
 const { formatMessage } = require('./utils/utils')
