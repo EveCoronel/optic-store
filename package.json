@@ -26,7 +26,7 @@
   "version": "1.0.0",
   "main": "knexfile.js",
   "scripts": {
-    "start": "node main.js",
+    "start": "node index.js",
     "test": "node benchmark.js",
     "forever-start": "forever start main.js",
     "start-dev": "nodemon main.js",
