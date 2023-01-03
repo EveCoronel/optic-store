@@ -1,0 +1,11 @@
+{"level":40,"time":1671821243375,"pid":1504,"hostname":"DESKTOP-G5OA5H3","msg":"Page not found"}
+{"level":40,"time":1671821389673,"pid":7532,"hostname":"DESKTOP-G5OA5H3","msg":"/info77 method:GET not found"}
+{"level":40,"time":1671821576854,"pid":2284,"hostname":"DESKTOP-G5OA5H3","msg":"/info77 method:GET not found"}
+{"level":40,"time":1671822139727,"pid":4840,"hostname":"DESKTOP-G5OA5H3","msg":"/hola method:GET not found"}
+{"level":40,"time":1671825520200,"pid":12072,"hostname":"DESKTOP-G5OA5H3","msg":"/rerroasdk method:GET not found"}
+{"level":40,"time":1671825529103,"pid":12072,"hostname":"DESKTOP-G5OA5H3","msg":"/info123 method:GET not found"}
+{"level":40,"time":1671825545085,"pid":12072,"hostname":"DESKTOP-G5OA5H3","msg":"/login method:GET not found"}
+{"level":40,"time":1671825677870,"pid":11952,"hostname":"DESKTOP-G5OA5H3","msg":"/auth/register method:GET not found"}
+{"level":40,"time":1671825697675,"pid":11952,"hostname":"DESKTOP-G5OA5H3","msg":"/public/styles.css method:GET not found"}
+{"level":40,"time":1671825725220,"pid":11952,"hostname":"DESKTOP-G5OA5H3","msg":"/auth/styles/styles.css method:GET not found"}
+{"level":40,"time":1671825725224,"pid":11952,"hostname":"DESKTOP-G5OA5H3","msg":"/auth/index.js method:GET not found"}

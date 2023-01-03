@@ -1,0 +1,50 @@
+{
+  "dependencies": {
+    "autocannon": "^7.10.0",
+    "bcrypt": "^5.1.0",
+    "compression": "^1.7.4",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "forever": "^4.0.3",
+    "knex": "^2.3.0",
+    "minimist": "^1.2.7",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.3",
+    "mysql": "^2.18.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "pino": "^8.8.0",
+    "pino-pretty": "^9.1.1",
+    "pm2": "^5.2.2",
+    "socket.io": "^4.5.4",
+    "sqlite3": "^5.1.2"
+  },
+  "name": "firstdb",
+  "version": "1.0.0",
+  "main": "knexfile.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node benchmark.js",
+    "forever-start": "forever start main.js",
+    "start-dev": "nodemon main.js",
+    "make-migration": "knex migrate:make",
+    "migrate": "knex migrate:up",
+    "migrate-rollback": "knex migrate:rollback",
+    "list-migrations": "knex migrate:list"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A través de esta web se podrá hacer uso de la base de datos para guardar productos y consultar los mismos. Por otro lado, la web incluye un chat para promover la comunicación entre los usuarios.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EveCoronel/optic-store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EveCoronel/optic-store.git/issues"
+  },
+  "homepage": "https://github.com/EveCoronel/optic-store.git#readme"
+}
