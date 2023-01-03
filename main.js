@@ -24,7 +24,9 @@ const argv = require('minimist')(process.argv.slice(2), {
         mode: "Fork"
     }
 })
-const PORT = argv.port
+/* const PORT = argv.port */
+
+const PORT = process.env.PORT || argv.port
 
 // Instanciamiento 
 const app = express();
