@@ -10,14 +10,13 @@ const infoRoutes = require('./info/info.routers')
 const randomRoutes = require('./random/random.router');
 const requestLogger = require('../middlewares/requestLogger');
 
-
-
 const ProductsModel = new Products()
 
 
 router.use('/auth', authRoutes)
 router.use('/info', infoRoutes)
 router.use('/random', randomRoutes)
+router.use('/products', productsRoutes)
 
 router.get('/', webAuth, requestLogger, async (req, res) => {
     res.sendFile(path.resolve('Public/login.html'));
@@ -37,6 +36,7 @@ router.get('/loginError', requestLogger, (req, res) => {
 router.get('/signupError', requestLogger, (req, res) => {
     res.render(path.join(process.cwd(), 'Public/views/pages/signupError.ejs'))
 })
+
 router.post('/products', requestLogger, productsRoutes)
 
 router.get('*', (req, res) => {
