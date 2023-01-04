@@ -22,6 +22,7 @@ passport.use('signup', new LocalStrategy(async (username, password, done) => {
 }))
 
 passport.use('login', new LocalStrategy(async (username, password, done) => {
+    console.log('Hola desde passport')
     try {
         const user = await UsersModel.getByEmail(username)
         let isValidPassword = await bcrypt.compare(password, user.password);

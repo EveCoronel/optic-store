@@ -1,21 +1,17 @@
 const express = require('express');
 const { webAuth, homeAuth } = require('../middlewares/auth');
 const router = express.Router();
-const authRoutes = require('./auth/auth.routers')
-const productsRoutes = require('./products/products.routers')
+const authRoutes = require('./auth/auth.routes')
 const path = require('path');
 const Products = require('../models/products.mongo');
 const logger = require('../logger/logger')
-const infoRoutes = require('./info/info.routers')
-const randomRoutes = require('./random/random.router');
 const requestLogger = require('../middlewares/requestLogger');
+const productsRoutes = require('./products/products.routes')
 
 const ProductsModel = new Products()
 
 
 router.use('/auth', authRoutes)
-router.use('/info', infoRoutes)
-router.use('/random', randomRoutes)
 router.use('/products', productsRoutes)
 
 router.get('/', webAuth, requestLogger, async (req, res) => {

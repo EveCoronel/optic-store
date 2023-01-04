@@ -9,3 +9,9 @@
 {"level":40,"time":1671825697675,"pid":11952,"hostname":"DESKTOP-G5OA5H3","msg":"/public/styles.css method:GET not found"}
 {"level":40,"time":1671825725220,"pid":11952,"hostname":"DESKTOP-G5OA5H3","msg":"/auth/styles/styles.css method:GET not found"}
 {"level":40,"time":1671825725224,"pid":11952,"hostname":"DESKTOP-G5OA5H3","msg":"/auth/index.js method:GET not found"}
+{"level":40,"time":1672797595300,"pid":3644,"hostname":"DESKTOP-G5OA5H3","msg":"/favicon.ico method:GET not found"}
+{"level":40,"time":1672797750917,"pid":3644,"hostname":"DESKTOP-G5OA5H3","msg":"/auth/styles/styles.css method:GET not found"}
+{"level":40,"time":1672797750919,"pid":3644,"hostname":"DESKTOP-G5OA5H3","msg":"/auth/index.js method:GET not found"}
+{"level":50,"time":1672798364641,"pid":8556,"hostname":"DESKTOP-G5OA5H3","msg":"Error login user in..."}
+{"level":50,"time":1672798374038,"pid":8556,"hostname":"DESKTOP-G5OA5H3","msg":"Error login user in..."}
+{"level":50,"time":1672798374042,"pid":8556,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: data and hash arguments required"}
