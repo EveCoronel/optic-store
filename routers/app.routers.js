@@ -20,15 +20,15 @@ router.use('/info', infoRoutes)
 router.use('/random', randomRoutes)
 
 router.get('/', webAuth, requestLogger, async (req, res) => {
-    res.sendFile(path.resolve(__dirname, '../public/login.html'));
+    res.sendFile(path.resolve(__dirname, 'Public/login.html'));
 });
 
 router.get('/home', homeAuth, requestLogger, async (req, res) => {
-    res.render(path.resolve(__dirname, '../public/index.ejs'), { products: ProductsModel.getAll(), user: req.user });
+    res.render(path.resolve(__dirname, 'Public/index.ejs'), { products: ProductsModel.getAll(), user: req.user });
 });
 
 router.get('/register', webAuth, requestLogger, async (req, res) => {
-    res.sendFile(path.resolve(__dirname, '../public/signup.html'));
+    res.sendFile(path.resolve(__dirname, 'Public/signup.html'));
 });
 
 router.get('/loginError', requestLogger, (req, res) => {
