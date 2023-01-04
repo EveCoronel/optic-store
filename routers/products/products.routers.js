@@ -5,7 +5,8 @@ const router = express.Router();
 const ProductsModel = new Products()
 
 router.get('/', (req, res) => {
-    
+    ProductsModel.getAll()
+    res.send(ProductsModel.getAll())
 })
 
 router.post('/', (req, res) => {
