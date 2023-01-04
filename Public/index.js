@@ -9,7 +9,6 @@ const stockInput = document.getElementById('stock-input')
 const priceInput = document.getElementById('price-input')
 const imageInput = document.getElementById('image-input')
 const submitBtn = document.getElementById('products-form')
-
 socket.on('products-history', (products) => {
 
     fetch('./views/partials/history.hbs')
