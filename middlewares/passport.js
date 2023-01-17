@@ -6,34 +6,31 @@ const logger = require('../logger/logger');
 
 const UsersModel = new Users();
 
-passport.use('signup', new LocalStrategy(async (username, password, done) => {
-    try {
-        let newUser = {
-            email: username,
-            password: await bcrypt.hash(password, 10)
+passport.use(new LocalStrategy(
+    async function (username, password, done) {
+        const user = await UsersModel.getByEmail(username)
+        let isValidPassword = await bcrypt.compare(password, user.password);
+        if (!user) {
+            return done(null, false, { message: 'Incorrect username.' });
         }
-        const user = await UsersModel.save(newUser)
-        return done(null, user)
-    } catch (error) {
-       /*  console.log('Error signing user up...') */
-        logger.error('Error signing user up...')
-        return done(error)
+        if (!isValidPassword) {
+            return done(null, false, { message: 'Incorrect password.' });
+        }
+        return done(null, user);
+
     }
-}))
+));
 
 passport.use('login', new LocalStrategy(async (username, password, done) => {
-    console.log('Hola desde passport')
     try {
         const user = await UsersModel.getByEmail(username)
         let isValidPassword = await bcrypt.compare(password, user.password);
         if (!isValidPassword) {
-            /* console.log('Error login user in...') */
             logger.error('Error login user in...')
             return done(null, false)
         }
         return done(null, user)
     } catch (error) {
-        /* console.log('Error login user in...') */
         logger.error('Error login user in...')
         return done(error)
     }

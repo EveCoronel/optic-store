@@ -15,3 +15,12 @@
 {"level":50,"time":1672798364641,"pid":8556,"hostname":"DESKTOP-G5OA5H3","msg":"Error login user in..."}
 {"level":50,"time":1672798374038,"pid":8556,"hostname":"DESKTOP-G5OA5H3","msg":"Error login user in..."}
 {"level":50,"time":1672798374042,"pid":8556,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: data and hash arguments required"}
+{"level":40,"time":1673913664168,"pid":11852,"hostname":"DESKTOP-G5OA5H3","msg":"/img_submit.gif method:GET not found"}
+{"level":40,"time":1673913664271,"pid":11852,"hostname":"DESKTOP-G5OA5H3","msg":"/img_submit.gif method:GET not found"}
+{"level":40,"time":1673913664308,"pid":11852,"hostname":"DESKTOP-G5OA5H3","msg":"/favicon.ico method:GET not found"}
+{"level":40,"time":1673913744901,"pid":11852,"hostname":"DESKTOP-G5OA5H3","msg":"/img_submit.gif method:GET not found"}
+{"level":40,"time":1673913745000,"pid":11852,"hostname":"DESKTOP-G5OA5H3","msg":"/img_submit.gif method:GET not found"}
+{"level":50,"time":1673914816417,"pid":8232,"hostname":"DESKTOP-G5OA5H3","msg":"Error signing user up..."}
+{"level":40,"time":1673917184960,"pid":9684,"hostname":"DESKTOP-G5OA5H3","msg":"/auth/register method:GET not found"}
+{"level":50,"time":1673921222920,"pid":1868,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: Class constructor AuthControllers cannot be invoked without 'new'"}
+{"level":50,"time":1673922232816,"pid":5612,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: ENOENT: no such file or directory, open 'C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\uploads\\hunter-reilly-O7NHbnjrz94-unsplash.jpg'"}

@@ -32,10 +32,26 @@ class HttpError {
     }
 }
 
-const formatUser = (name) =>{
+const formatUser = (name) => {
     return {
         name: name
     }
+}
+
+const getAge = (birthdate) => {
+    let today = new Date();
+    let birthDate = new Date(birthdate);
+    let age = today.getFullYear() - birthDate.getFullYear();
+    let m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+    }
+    return age;
+}
+
+const validateEmail = (email) => {
+    let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
 }
 
 module.exports = {
@@ -43,7 +59,9 @@ module.exports = {
     errorResponse,
     HttpError,
     formatMessage,
-    formatUser
+    formatUser,
+    getAge,
+    validateEmail
 }
 
 
