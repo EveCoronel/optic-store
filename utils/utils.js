@@ -1,4 +1,27 @@
 const moment = require("moment/moment");
+const envConfig = require('../config')
+const mailgun = require("mailgun-js");
+const logger = require("../logger/logger");
+
+const mg = mailgun({ apiKey: envConfig.APIKEY_MAILGUN, domain: envConfig.DOMAIN_MAILGUN });
+
+
+const sendEmail = (to, subject, text) => {
+
+    const data = {
+        from: 'Excited User evelyncoronel05@gmail.com',
+        to,
+        subject,
+        text
+    };
+
+    mg.messages().send(data, function (error, body) {
+        logger.info(`${subject} email was sent successfully to ${to}`);
+    });
+}
+
+
+
 
 const formatMessage = (username, text) => {
     return {
@@ -7,6 +30,7 @@ const formatMessage = (username, text) => {
         time: moment().format('DD/MM/YYYY - HH:mm')
     }
 };
+
 
 
 const successResponse = (data) => {
@@ -61,7 +85,8 @@ module.exports = {
     formatMessage,
     formatUser,
     getAge,
-    validateEmail
+    validateEmail,
+    sendEmail
 }
 
 

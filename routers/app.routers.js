@@ -1,5 +1,5 @@
 const express = require('express');
-const { webAuth, homeAuth } = require('../middlewares/auth');
+const { webAuth, homeAuth, auth } = require('../middlewares/auth');
 const router = express.Router();
 const authRoutes = require('./auth/auth.routes')
 const path = require('path');
@@ -11,15 +11,19 @@ const productsRoutes = require('./products/products.routes')
 const ProductsModel = new Products()
 
 
-router.use('/auth', authRoutes)
-router.use('/products', productsRoutes)
+router.use('/auth', requestLogger, authRoutes)
+router.use('/products', requestLogger, productsRoutes)
 
 router.get('/', webAuth, requestLogger, async (req, res) => {
     res.sendFile(path.resolve('Public/login.html'));
 });
 
 router.get('/home', homeAuth, requestLogger, async (req, res) => {
-    res.render(path.resolve('Public/index.ejs'), { products: ProductsModel.getAll(), user: req.user });
+   res.render(path.resolve('Public/index.ejs'), { products: await ProductsModel.getAll(), user: req.user });
+});
+
+router.get('/admin', auth, requestLogger, async (req, res) => {
+    res.render(path.resolve('Public/admin.ejs'), { products: await ProductsModel.getAll(), user: req.user });
 });
 
 router.get('/register', webAuth, requestLogger, async (req, res) => {

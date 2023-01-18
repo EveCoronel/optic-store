@@ -24,3 +24,14 @@
 {"level":40,"time":1673917184960,"pid":9684,"hostname":"DESKTOP-G5OA5H3","msg":"/auth/register method:GET not found"}
 {"level":50,"time":1673921222920,"pid":1868,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: Class constructor AuthControllers cannot be invoked without 'new'"}
 {"level":50,"time":1673922232816,"pid":5612,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: ENOENT: no such file or directory, open 'C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\uploads\\hunter-reilly-O7NHbnjrz94-unsplash.jpg'"}
+{"level":40,"time":1674003136143,"pid":10924,"hostname":"DESKTOP-G5OA5H3","msg":"/favicon.ico method:GET not found"}
+{"level":50,"time":1674004720923,"pid":12028,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: CastError: Cast to ObjectId failed for value \"Sunglasses\" (type string) at path \"_id\" for model \"products\""}
+{"level":50,"time":1674007059087,"pid":7960,"hostname":"DESKTOP-G5OA5H3","msg":"Error login user in..."}
+{"level":50,"time":1674007059088,"pid":7960,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: [object Object]"}
+{"level":40,"time":1674007551373,"pid":11024,"hostname":"DESKTOP-G5OA5H3","msg":"/admin method:GET not found"}
+{"level":50,"time":1674008326303,"pid":10668,"hostname":"DESKTOP-G5OA5H3","msg":"Error login user in..."}
+{"level":50,"time":1674008326307,"pid":10668,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: [object Object]"}
+{"level":50,"time":1674008334104,"pid":10668,"hostname":"DESKTOP-G5OA5H3","msg":"Error login user in..."}
+{"level":50,"time":1674008334107,"pid":10668,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: [object Object]"}
+{"level":50,"time":1674008355732,"pid":10668,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\Public\\index.ejs:29\n    27|     <article>\r\n    28|         <div id=\"productsCards-div\">\r\n >> 29|             <% products.forEach(function(item) { %>\r\n    30|                 <div class=\"card\" style=\"width: 18rem;\">\r\n    31|                     <img src=\"<%= item.thumbnail %>\" class=\"card-img-top\" alt=\"...\">\r\n    32|                     <div class=\"card-body\">\r\n\nproducts.forEach is not a function"}
+{"level":50,"time":1674008425668,"pid":3228,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\Public\\index.ejs:29\n    27|     <article>\r\n    28|         <div id=\"productsCards-div\">\r\n >> 29|             <% products.forEach(function(item) { %>\r\n    30|                 <div class=\"card\" style=\"width: 18rem;\">\r\n    31|                     <img src=\"<%= item.thumbnail %>\" class=\"card-img-top\" alt=\"...\">\r\n    32|                     <div class=\"card-body\">\r\n\nproducts.forEach is not a function"}

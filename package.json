@@ -10,6 +10,7 @@
     "express-session": "^1.17.3",
     "forever": "^4.0.3",
     "knex": "^2.3.0",
+    "mailgun-js": "^0.22.0",
     "minimist": "^1.2.7",
     "moment": "^2.29.4",
     "mongoose": "^6.7.3",

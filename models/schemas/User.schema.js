@@ -8,4 +8,5 @@ module.exports = new Schema({
     age: { type: Number, required: true },
     birthDate: { type: Date, required: true },
     phoneNumber: { type: Number, required: true },
+    admin: { type: Boolean, default: false }
 })

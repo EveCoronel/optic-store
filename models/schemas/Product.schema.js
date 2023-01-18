@@ -6,5 +6,6 @@ module.exports = new Schema({
     thumbnail: { type: String },
     stock: { type: Number },
     price: { type: Number },
-    description: { type: String }
+    description: { type: String },
+    category: { type: String }
 })
