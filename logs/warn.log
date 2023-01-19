@@ -58,3 +58,6 @@
 {"level":50,"time":1674093692064,"pid":11804,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: Cannot set properties of undefined (setting 'cant')"}
 {"level":50,"time":1674093792346,"pid":3736,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: ReferenceError: index is not defined"}
 {"level":50,"time":1674093857416,"pid":8924,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: ReferenceError: index is not defined"}
+{"level":40,"time":1674094429310,"pid":7472,"hostname":"DESKTOP-G5OA5H3","msg":"/config method:GET not found"}
+{"level":40,"time":1674094444354,"pid":7472,"hostname":"DESKTOP-G5OA5H3","msg":"/config method:GET not found"}
+{"level":40,"time":1674094903346,"pid":10780,"hostname":"DESKTOP-G5OA5H3","msg":"/config.js method:GET not found"}

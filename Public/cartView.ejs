@@ -42,18 +42,29 @@
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="<%= item.thumbnail %>" class="img-fluid rounded-start" alt="<%= item.thumbnail %>">
+                                <img src="<%= item.thumbnail %>" class="img-fluid rounded-start"
+                                    alt="<%= item.thumbnail %>">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title"><%= item.title %></h5>
-                                    <p class="card-text"><%= item.description %></p>
-                                    <p class="card-text"><small class="text-muted"><%= item.cant %></small></p>
+                                    <h5 class="card-title">
+                                        <%= item.title %>
+                                    </h5>
+                                    <p class="card-text">
+                                        <%= item.description %>
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">
+                                            <%= item.cant %>
+                                        </small></p>
                                 </div>
                             </div>
                         </div>
+                        <button class="btn btn-outline-secondary">Delete product</button>
                     </div>
                     <% }); %>
+                        <a href="/checkout">
+                            <button class="btn btn-outline-success">Checkout</button>
+                        </a>
                         <% } %>
         </div>
     </article>
