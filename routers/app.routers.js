@@ -7,19 +7,24 @@ const Products = require('../models/products.mongo');
 const logger = require('../logger/logger')
 const requestLogger = require('../middlewares/requestLogger');
 const productsRoutes = require('./products/products.routes')
+const cartsRoutes = require('../routers/carts/cart.routes');
+const { CartsDao } = require('../models/daos/app.daos');
+
+const CartModel = new CartsDao()
 
 const ProductsModel = new Products()
 
 
 router.use('/auth', requestLogger, authRoutes)
 router.use('/products', requestLogger, productsRoutes)
+router.use('/carts', requestLogger, cartsRoutes)
 
 router.get('/', webAuth, requestLogger, async (req, res) => {
     res.sendFile(path.resolve('Public/login.html'));
 });
 
 router.get('/home', homeAuth, requestLogger, async (req, res) => {
-   res.render(path.resolve('Public/index.ejs'), { products: await ProductsModel.getAll(), user: req.user });
+    res.render(path.resolve('Public/index.ejs'), { products: await ProductsModel.getAll(), user: req.user });
 });
 
 router.get('/admin', auth, requestLogger, async (req, res) => {
@@ -37,7 +42,12 @@ router.get('/signupError', requestLogger, (req, res) => {
     res.render(path.join(process.cwd(), 'Public/views/pages/signupError.ejs'))
 })
 
-router.post('/products', requestLogger, productsRoutes)
+router.get('/cart', auth, requestLogger, async (req, res) => {
+    res.render(path.resolve('Public/cartView.ejs'), { cart: await CartModel.getProductsInCart(req.user.cart), user: req.user });
+});
+
+//router.post('/products', requestLogger, productsRoutes)
+
 
 router.get('*', (req, res) => {
     // console.log(req)

@@ -92,3 +92,5 @@ chatForm.addEventListener('submit', (e) => {
     messageInput.value = '';
 
 })
+
+

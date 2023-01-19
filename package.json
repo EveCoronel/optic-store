@@ -2,6 +2,7 @@
   "dependencies": {
     "autocannon": "^7.10.0",
     "bcrypt": "^5.1.0",
+    "bootstrap-icons": "^1.10.3",
     "compression": "^1.7.4",
     "connect-mongo": "^4.6.0",
     "dotenv": "^16.0.3",

@@ -2,12 +2,16 @@ const mongoContainer = require('../../containers/mongo.container')
 const { Schema } = require('mongoose')
 const { HttpError } = require('../../../utils/utils')
 const { HTTP_STATUS } = require('../../../constants/api.constants')
+const Products = require('../../products.mongo')
+
+const productsDao = new Products();
 
 const collection = 'carts'
 
 const cartSchema = new Schema({
     timestamp: { type: String },
-    products: [{ type: Schema.Types.ObjectId }]
+    products: [{ type: Schema.Types.ObjectId }],
+    cant: { type: Number }
 })
 
 class DaoCartsMongo extends mongoContainer {
@@ -31,7 +35,27 @@ class DaoCartsMongo extends mongoContainer {
             const message = `Resource with id ${id} does not exist in our records`;
             throw new HttpError(HTTP_STATUS.NOT_FOUND, message);
         }
-        return document.products;
+        let products = []
+        for (let i = 0; document.products.length > i; i++) {
+
+            let productById = await productsDao.getById(document.products[i])
+
+            let isTheProductInArray = products.find(item => item.title == productById.title)
+
+            if (isTheProductInArray) {
+                let index = products.findIndex(item => item.title == productById.title)
+                console.log(products[index]["cant"])
+                if (!products[index]["cant"]) {
+                    products[index]["cant"] = 2
+                } else {
+                    products[index]["cant"] = products[index]["cant"] + 1;
+                }
+            } else {
+                products.push(productById)
+            }
+
+        }
+        return products;
     }
 
     async addProduct(id, idProducto) {

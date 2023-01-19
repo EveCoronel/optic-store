@@ -7,5 +7,6 @@ module.exports = {
   DATASOURCE: process.env.DATASOURCE,
   DOMAIN_MAILGUN: process.env.DOMAIN_MAILGUN,
   APIKEY_MAILGUN: process.env.APIKEY_MAILGUN,
-  ADMIN_EMAIL: process.env.ADMIN_EMAIL
+  ADMIN_EMAIL: process.env.ADMIN_EMAIL,
+  SERVER_DOMAIN: process.env.SERVER_DOMAIN
 }

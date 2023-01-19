@@ -6,7 +6,9 @@ const passport = require('passport')
 const multer = require('multer');
 const envConfig = require('../config');
 const UsersModel = new Users();
+const { CartsDao } = require('../models/daos/app.daos')
 
+const cartsDao = new CartsDao();
 
 
 const storage = multer.diskStorage({
@@ -44,14 +46,15 @@ class AuthControllers {
 
     async register(req, res, next) {
         let { username, password, address, birthDate, countryCode, phoneNumber } = req.body
-        
+        let cart = await cartsDao.createCart()
         let newUser = {
             email: username,
             password: await bcrypt.hash(password, 10),
             address: address,
             age: getAge(birthDate),
             birthDate: birthDate,
-            phoneNumber: countryCode + phoneNumber
+            phoneNumber: countryCode + phoneNumber,
+            cart: cart._id
         }
         const user = await UsersModel.save(newUser)
 

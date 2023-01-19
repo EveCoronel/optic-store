@@ -35,3 +35,9 @@
     align-items: center;
     padding: 10%;
 }
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -35,3 +35,26 @@
 {"level":50,"time":1674008334107,"pid":10668,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: [object Object]"}
 {"level":50,"time":1674008355732,"pid":10668,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\Public\\index.ejs:29\n    27|     <article>\r\n    28|         <div id=\"productsCards-div\">\r\n >> 29|             <% products.forEach(function(item) { %>\r\n    30|                 <div class=\"card\" style=\"width: 18rem;\">\r\n    31|                     <img src=\"<%= item.thumbnail %>\" class=\"card-img-top\" alt=\"...\">\r\n    32|                     <div class=\"card-body\">\r\n\nproducts.forEach is not a function"}
 {"level":50,"time":1674008425668,"pid":3228,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\Public\\index.ejs:29\n    27|     <article>\r\n    28|         <div id=\"productsCards-div\">\r\n >> 29|             <% products.forEach(function(item) { %>\r\n    30|                 <div class=\"card\" style=\"width: 18rem;\">\r\n    31|                     <img src=\"<%= item.thumbnail %>\" class=\"card-img-top\" alt=\"...\">\r\n    32|                     <div class=\"card-body\">\r\n\nproducts.forEach is not a function"}
+{"level":40,"time":1674084223599,"pid":5276,"hostname":"DESKTOP-G5OA5H3","msg":"/favicon.ico method:GET not found"}
+{"level":50,"time":1674084584275,"pid":1512,"hostname":"DESKTOP-G5OA5H3","msg":"Error login user in..."}
+{"level":50,"time":1674084584276,"pid":1512,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: [object Object]"}
+{"level":50,"time":1674084590161,"pid":1512,"hostname":"DESKTOP-G5OA5H3","msg":"Error login user in..."}
+{"level":50,"time":1674084590162,"pid":1512,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: [object Object]"}
+{"level":50,"time":1674088377285,"pid":1760,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"carts\""}
+{"level":50,"time":1674088471914,"pid":5644,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"carts\""}
+{"level":40,"time":1674089101935,"pid":1100,"hostname":"DESKTOP-G5OA5H3","msg":"/cart method:GET not found"}
+{"level":40,"time":1674091438048,"pid":12048,"hostname":"DESKTOP-G5OA5H3","msg":"/carts/63c89a36aef8c93a60ca1b70/products/636af3ff103544f1859920a2 method:GET not found"}
+{"level":50,"time":1674092458801,"pid":528,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: Cannot read properties of undefined (reading 'cant')"}
+{"level":50,"time":1674092645539,"pid":7804,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: [object Object] is not a function"}
+{"level":50,"time":1674092688623,"pid":5524,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: [object Object] is not a function"}
+{"level":50,"time":1674092721690,"pid":7848,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: [object Object] is not a function"}
+{"level":50,"time":1674092797601,"pid":11760,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: ReferenceError: cant is not defined"}
+{"level":50,"time":1674092817601,"pid":3276,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: ReferenceError: cant is not defined"}
+{"level":50,"time":1674092860183,"pid":8280,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: Cannot read properties of undefined (reading 'cant')"}
+{"level":50,"time":1674092895176,"pid":5168,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: Cannot read properties of undefined (reading 'cant')"}
+{"level":50,"time":1674092922736,"pid":6432,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: Cannot read properties of undefined (reading 'cant')"}
+{"level":50,"time":1674093021158,"pid":13120,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: Cannot read properties of undefined (reading 'cant')"}
+{"level":50,"time":1674093071059,"pid":4384,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: Cannot read properties of undefined (reading 'cant')"}
+{"level":50,"time":1674093692064,"pid":11804,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: Cannot set properties of undefined (setting 'cant')"}
+{"level":50,"time":1674093792346,"pid":3736,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: ReferenceError: index is not defined"}
+{"level":50,"time":1674093857416,"pid":8924,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: ReferenceError: index is not defined"}
