@@ -61,3 +61,44 @@
 {"level":40,"time":1674094429310,"pid":7472,"hostname":"DESKTOP-G5OA5H3","msg":"/config method:GET not found"}
 {"level":40,"time":1674094444354,"pid":7472,"hostname":"DESKTOP-G5OA5H3","msg":"/config method:GET not found"}
 {"level":40,"time":1674094903346,"pid":10780,"hostname":"DESKTOP-G5OA5H3","msg":"/config.js method:GET not found"}
+{"level":40,"time":1674169715801,"pid":372,"hostname":"DESKTOP-G5OA5H3","msg":"/favicon.ico method:GET not found"}
+{"level":50,"time":1674171356854,"pid":10064,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: ReferenceError: C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\Public\\cartView.ejs:67\n    65|                     </div>\r\n    66|                     <% }); %>\r\n >> 67|                         <button data-productsInCart=\"<%= item.cant %>\" class=\"btn btn-outline-success\"\r\n    68|                             id=\"checkout-btn\">Checkout</button>\r\n    69|                         <% } %>\r\n    70|         </div>\r\n\nitem is not defined"}
+{"level":50,"time":1674171378757,"pid":10064,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: ReferenceError: C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\Public\\cartView.ejs:67\n    65|                     </div>\r\n    66|                     <% }); %>\r\n >> 67|                         <button data-productsInCart=\"<%= item.cant %>\" class=\"btn btn-outline-success\"\r\n    68|                             id=\"checkout-btn\">Checkout</button>\r\n    69|                         <% } %>\r\n    70|         </div>\r\n\nitem is not defined"}
+{"level":50,"time":1674171390111,"pid":10064,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: ReferenceError: C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\Public\\cartView.ejs:67\n    65|                     </div>\r\n    66|                     <% }); %>\r\n >> 67|                         <button data-productsInCart=\"<%= item.cant %>\" class=\"btn btn-outline-success\"\r\n    68|                             id=\"checkout-btn\">Checkout</button>\r\n    69|                         <% } %>\r\n    70|         </div>\r\n\nitem is not defined"}
+{"level":50,"time":1674171487409,"pid":10064,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token _ in JSON at position 4"}
+{"level":50,"time":1674171524142,"pid":3964,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token _ in JSON at position 4"}
+{"level":50,"time":1674171565040,"pid":3484,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token _ in JSON at position 4"}
+{"level":50,"time":1674171593141,"pid":2668,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token _ in JSON at position 4"}
+{"level":50,"time":1674171802327,"pid":7124,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token _ in JSON at position 4"}
+{"level":50,"time":1674171918989,"pid":4712,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token _ in JSON at position 4"}
+{"level":50,"time":1674171957688,"pid":4448,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token _ in JSON at position 4"}
+{"level":50,"time":1674172032930,"pid":5976,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token \" in JSON at position 0"}
+{"level":50,"time":1674172037606,"pid":5976,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token \" in JSON at position 0"}
+{"level":50,"time":1674172037768,"pid":5976,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token \" in JSON at position 0"}
+{"level":50,"time":1674172037950,"pid":5976,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token \" in JSON at position 0"}
+{"level":50,"time":1674172038097,"pid":5976,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token \" in JSON at position 0"}
+{"level":50,"time":1674172038283,"pid":5976,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token \" in JSON at position 0"}
+{"level":50,"time":1674172109588,"pid":424,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token h in JSON at position 0"}
+{"level":50,"time":1674172161330,"pid":8740,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token o in JSON at position 1"}
+{"level":50,"time":1674172897967,"pid":7220,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token \" in JSON at position 0"}
+{"level":50,"time":1674173235607,"pid":10216,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: CastError: Cast to ObjectId failed for value \"null\" (type string) at path \"products\" because of \"BSONTypeError\""}
+{"level":50,"time":1674173287109,"pid":6260,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: CastError: Cast to ObjectId failed for value \"null\" (type string) at path \"products\" because of \"BSONTypeError\""}
+{"level":50,"time":1674173528689,"pid":11984,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token \" in JSON at position 0"}
+{"level":50,"time":1674173615000,"pid":11984,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token \" in JSON at position 0"}
+{"level":50,"time":1674173848847,"pid":5320,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token \" in JSON at position 0"}
+{"level":50,"time":1674173970497,"pid":9596,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: ReferenceError: updatedDocument is not defined"}
+{"level":50,"time":1674174265471,"pid":3708,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token u in JSON at position 0"}
+{"level":50,"time":1674174320574,"pid":7440,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token u in JSON at position 0"}
+{"level":50,"time":1674174383572,"pid":1032,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token u in JSON at position 0"}
+{"level":50,"time":1674175344935,"pid":4784,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token \" in JSON at position 0"}
+{"level":50,"time":1674175381430,"pid":2260,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token \" in JSON at position 0"}
+{"level":50,"time":1674175423615,"pid":9776,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token \" in JSON at position 0"}
+{"level":50,"time":1674175454203,"pid":3600,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token _ in JSON at position 4"}
+{"level":50,"time":1674175636061,"pid":9280,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token o in JSON at position 1"}
+{"level":50,"time":1674176097593,"pid":3164,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token o in JSON at position 1"}
+{"level":50,"time":1674176139076,"pid":3712,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token k in JSON at position 1"}
+{"level":50,"time":1674176188962,"pid":6520,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: SyntaxError: Unexpected token o in JSON at position 1"}
+{"level":50,"time":1674176561962,"pid":5900,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: Cannot destructure property 'cart' of 'req.parama' as it is undefined."}
+{"level":50,"time":1674176588526,"pid":1628,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: productsInCart.sringify is not a function"}
+{"level":50,"time":1674176703475,"pid":4812,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: ReferenceError: response is not defined"}
+{"level":50,"time":1674176746657,"pid":6596,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: [object Object]"}

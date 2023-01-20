@@ -1,5 +1,4 @@
 
-
 setTimeout(() => {
     const productsContainer = document.getElementById("productsCards-div");
 
@@ -21,5 +20,6 @@ setTimeout(() => {
 
         }
     });
-}, 5000)
+}, 2000)
+
 

@@ -9,10 +9,12 @@ const requestLogger = require('../middlewares/requestLogger');
 const productsRoutes = require('./products/products.routes')
 const cartsRoutes = require('../routers/carts/cart.routes');
 const { CartsDao } = require('../models/daos/app.daos');
+const checkoutController = require('../controllers/checkout.controllers');
 
 const CartModel = new CartsDao()
 
 const ProductsModel = new Products()
+
 
 
 router.use('/auth', requestLogger, authRoutes)
@@ -46,7 +48,7 @@ router.get('/cart', auth, requestLogger, async (req, res) => {
     res.render(path.resolve('Public/cartView.ejs'), { cart: await CartModel.getProductsInCart(req.user.cart), user: req.user });
 });
 
-//router.post('/products', requestLogger, productsRoutes)
+router.post('/checkout/:idCart', requestLogger, checkoutController.checkout)
 
 
 router.get('*', (req, res) => {

@@ -44,13 +44,9 @@ class DaoCartsMongo extends mongoContainer {
 
             if (isTheProductInArray) {
                 let index = products.findIndex(item => item.title == productById.title)
-                console.log(products[index]["cant"])
-                if (!products[index]["cant"]) {
-                    products[index]["cant"] = 2
-                } else {
-                    products[index]["cant"] = products[index]["cant"] + 1;
-                }
+                products[index].cant++
             } else {
+                productById["cant"] = 1;
                 products.push(productById)
             }
 
@@ -80,6 +76,18 @@ class DaoCartsMongo extends mongoContainer {
             throw new HttpError(HTTP_STATUS.NOT_FOUND, message);
         }
         return updatedDocument;
+    }
+
+    async delete(idCart) {
+        const updatedCart = await this.model.updateOne(
+            { _id: idCart },
+            { products: [] }
+        );
+        if (!updatedCart.matchedCount) {
+            const message = `Resource with id ${idCart} does not exist in our records`;
+            throw new HttpError(HTTP_STATUS.NOT_FOUND, message);
+        }
+        return updatedCart;
     }
 
 }
