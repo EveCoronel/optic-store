@@ -26,7 +26,9 @@ router.get('/', webAuth, requestLogger, async (req, res) => {
 });
 
 router.get('/home', homeAuth, requestLogger, async (req, res) => {
-    res.render(path.resolve('Public/index.ejs'), { products: await ProductsModel.getAll(), user: req.user });
+    let { category } = req.query;
+    if (category) res.render(path.resolve('Public/index.ejs'), { products: await ProductsModel.getByCategory(category), user: req.user });
+    else res.render(path.resolve('Public/index.ejs'), { products: await ProductsModel.getAll(), user: req.user });
 });
 
 router.get('/admin', auth, requestLogger, async (req, res) => {

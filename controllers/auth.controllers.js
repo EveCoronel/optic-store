@@ -45,6 +45,7 @@ class AuthControllers {
     }
 
     async register(req, res, next) {
+       
         let { username, password, address, birthDate, countryCode, phoneNumber } = req.body
         let cart = await cartsDao.createCart()
         let newUser = {

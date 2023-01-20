@@ -23,7 +23,8 @@
     "pino-pretty": "^9.1.1",
     "pm2": "^5.2.2",
     "socket.io": "^4.5.4",
-    "sqlite3": "^5.1.2"
+    "sqlite3": "^5.1.2",
+    "twilio": "^3.84.1"
   },
   "name": "firstdb",
   "version": "1.0.0",

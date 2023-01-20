@@ -2,6 +2,12 @@ const moment = require("moment/moment");
 const envConfig = require('../config')
 const mailgun = require("mailgun-js");
 const logger = require("../logger/logger");
+const twilio = require("twilio")
+
+const twilioClient = twilio(
+    envConfig.TWILIO_ACCOUNT_SID,
+    envConfig.TWILIO_AUTH_TOKEN
+)
 
 const mg = mailgun({ apiKey: envConfig.APIKEY_MAILGUN, domain: envConfig.DOMAIN_MAILGUN });
 
@@ -48,6 +54,44 @@ const errorResponse = (message, details = null) => {
     }
 }
 
+const sendWaNotification = async (message, waNumber) => {
+
+    let to = 'whatsapp:+59893651889'
+    if (waNumber && waNumber.includes('+')) to = `whatsapp:${waNumber}`
+    else to = `whatsapp:+${waNumber}`
+    const option = {
+        body: message,
+        from: envConfig.TWILIO_WHATSAPP,
+        to
+    }
+    try {
+        await twilioClient.messages.create(option)
+        logger.info(`${subject} Whatsapp was sent successfully to ${to}`);
+    }
+    catch (err) {
+        return { sent: false }
+    }
+
+    return { sent: true }
+}
+
+
+const sendSMS = async (message, to) => {
+    const option = {
+        body: message,
+        from: envConfig.TWILIO_NUMBER,
+        to
+    }
+    try {
+        await twilioClient.messages.create(option)
+    } catch (err) {
+        return { sent: false }
+    }
+    return { sent: true }
+
+}
+
+
 class HttpError {
     constructor(status, message, details) {
         this.statusCode = status;
@@ -86,7 +130,9 @@ module.exports = {
     formatUser,
     getAge,
     validateEmail,
-    sendEmail
+    sendEmail,
+    sendWaNotification,
+    sendSMS
 }
 
 
