@@ -9,5 +9,6 @@ module.exports = new Schema({
     birthDate: { type: Date, required: true },
     phoneNumber: { type: Number, required: true },
     admin: { type: Boolean, default: false },
-    cart: { type: String, required: true }
+    cart: { type: String, required: true },
+    profilePicture: { type: String }
 })

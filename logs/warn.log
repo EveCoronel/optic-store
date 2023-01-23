@@ -102,3 +102,25 @@
 {"level":50,"time":1674176588526,"pid":1628,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: TypeError: productsInCart.sringify is not a function"}
 {"level":50,"time":1674176703475,"pid":4812,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: ReferenceError: response is not defined"}
 {"level":50,"time":1674176746657,"pid":6596,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: [object Object]"}
+{"level":40,"time":1674266374691,"pid":6988,"hostname":"DESKTOP-NIVBK89","msg":"/favicon.ico method:GET not found"}
+{"level":40,"time":1674267350536,"pid":8748,"hostname":"DESKTOP-NIVBK89","msg":"/Prueba2@gmail.com.jpg method:GET not found"}
+{"level":40,"time":1674267387379,"pid":8748,"hostname":"DESKTOP-NIVBK89","msg":"/Prueba2@gmail.com.jpg method:GET not found"}
+{"level":40,"time":1674267426344,"pid":8748,"hostname":"DESKTOP-NIVBK89","msg":"/Prueba2@gmail.com.jpg method:GET not found"}
+{"level":40,"time":1674267460592,"pid":8748,"hostname":"DESKTOP-NIVBK89","msg":"/uploads/Prueba2@gmail.com.jpg method:GET not found"}
+{"level":40,"time":1674267533561,"pid":8748,"hostname":"DESKTOP-NIVBK89","msg":"/uploads/Prueba2@gmail.com.jpg method:GET not found"}
+{"level":40,"time":1674267771712,"pid":5064,"hostname":"DESKTOP-NIVBK89","msg":"/uploads/Public/uploads/avatar11.png method:GET not found"}
+{"level":40,"time":1674268296668,"pid":2060,"hostname":"DESKTOP-NIVBK89","msg":"/uploads/Prueba11@gmail.com.jpg method:GET not found"}
+{"level":40,"time":1674268299248,"pid":2060,"hostname":"DESKTOP-NIVBK89","msg":"/uploads/Prueba11@gmail.com.jpg method:GET not found"}
+{"level":40,"time":1674268341807,"pid":2060,"hostname":"DESKTOP-NIVBK89","msg":"/uploads/Public/uploads/avatar7.png method:GET not found"}
+{"level":40,"time":1674268389293,"pid":780,"hostname":"DESKTOP-NIVBK89","msg":"/uploads/Public/uploads/avatar7.png method:GET not found"}
+{"level":40,"time":1674268391148,"pid":780,"hostname":"DESKTOP-NIVBK89","msg":"/uploads/Public/uploads/avatar7.png method:GET not found"}
+{"level":40,"time":1674268412327,"pid":780,"hostname":"DESKTOP-NIVBK89","msg":"/uploads/Public/uploads/Avatar5.png method:GET not found"}
+{"level":40,"time":1674437579132,"pid":5772,"hostname":"DESKTOP-NIVBK89","msg":"/favicon.ico method:GET not found"}
+{"level":40,"time":1674437670398,"pid":5772,"hostname":"DESKTOP-NIVBK89","msg":"/uploads/Public/uploads/Avatar9.png method:GET not found"}
+{"level":40,"time":1674437690670,"pid":5772,"hostname":"DESKTOP-NIVBK89","msg":"/uploads/Public/uploads/Avatar9.png method:GET not found"}
+{"level":40,"time":1674437695789,"pid":5772,"hostname":"DESKTOP-NIVBK89","msg":"/uploads/Public/uploads/Avatar9.png method:GET not found"}
+{"level":40,"time":1674437737958,"pid":5772,"hostname":"DESKTOP-NIVBK89","msg":"/Public/uploads/Avatar9.png method:GET not found"}
+{"level":40,"time":1674437793390,"pid":5772,"hostname":"DESKTOP-NIVBK89","msg":"/Public/uploads/Avatar11.png method:GET not found"}
+{"level":40,"time":1674437817396,"pid":5772,"hostname":"DESKTOP-NIVBK89","msg":"/Public/uploads/Avatar11.png method:GET not found"}
+{"level":40,"time":1674437852120,"pid":5772,"hostname":"DESKTOP-NIVBK89","msg":"/Public/styles/styles.css method:GET not found"}
+{"level":40,"time":1674437870436,"pid":5772,"hostname":"DESKTOP-NIVBK89","msg":"/public/styles/styles.css method:GET not found"}

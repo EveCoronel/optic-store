@@ -13,7 +13,7 @@ const cartsDao = new CartsDao();
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, 'uploads/')
+        cb(null, 'Public/uploads/')
     },
     filename: function (req, file, cb) {
         cb(null, `${req.body.username}.${file.originalname.split('.')[1]}`)
@@ -45,9 +45,10 @@ class AuthControllers {
     }
 
     async register(req, res, next) {
-       
         let { username, password, address, birthDate, countryCode, phoneNumber } = req.body
         let cart = await cartsDao.createCart()
+        let profilePicture = `Public/uploads/Avatar${Math.floor(Math.random() * 12) + 1}.png`
+        if (req.file) profilePicture = `${username}.${req.file.originalname.split('.')[1]}`
         let newUser = {
             email: username,
             password: await bcrypt.hash(password, 10),
@@ -55,8 +56,10 @@ class AuthControllers {
             age: getAge(birthDate),
             birthDate: birthDate,
             phoneNumber: countryCode + phoneNumber,
-            cart: cart._id
+            cart: cart._id,
+            profilePicture
         }
+
         const user = await UsersModel.save(newUser)
 
         const textForEmail = `

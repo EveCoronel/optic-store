@@ -14,6 +14,7 @@
 <body>
     <nav>
         <div class="nav-bar">
+            <img class="img-thumbnail" height="200px" width="200px" src="<%= user.profilePicture %>" alt="">
             <h2 class="">
                 Bienvenido, <%= user.email %>
                     <form id="logout-form" action="/auth/logout" method="POST">
