@@ -13,6 +13,7 @@ const passport = require('passport');
 const envConfig = require('./config');
 const os = require('os')
 const cluster = require('cluster');
+const path = require('path');
 const argv = require('minimist')(process.argv.slice(2), {
     alias: {
         p: "port",
@@ -53,8 +54,9 @@ app.use(passport.session())
 app.use(apiRoutes)
 // Views
 
-app.set('views', './views/pages');
+
 app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
 
 if (argv.mode === 'Cluster' && cluster.isPrimary) {
     const cpus = os.cpus().length;

@@ -34,7 +34,7 @@ class AuthControllers {
         if (user && user.email) {
             req.session.destroy(err => {
                 if (!err) {
-                    res.render(path.join(process.cwd(), 'Public/views/pages/logout.ejs'), { email: user.email })
+                    res.render(path.join(process.cwd(), 'Public/views/pages/authentication/logout.ejs'), { email: user.email })
                 } else {
                     res.redirect('/')
                 }
@@ -47,7 +47,7 @@ class AuthControllers {
     async register(req, res, next) {
         let { username, password, address, birthDate, countryCode, phoneNumber } = req.body
         let cart = await cartsDao.createCart()
-        let profilePicture = `Public/uploads/Avatar${Math.floor(Math.random() * 12) + 1}.png`
+        let profilePicture = `Avatar${Math.floor(Math.random() * 12) + 1}.png`
         if (req.file) profilePicture = `${username}.${req.file.originalname.split('.')[1]}`
         let newUser = {
             email: username,

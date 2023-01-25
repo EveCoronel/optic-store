@@ -124,3 +124,75 @@
 {"level":40,"time":1674437817396,"pid":5772,"hostname":"DESKTOP-NIVBK89","msg":"/Public/uploads/Avatar11.png method:GET not found"}
 {"level":40,"time":1674437852120,"pid":5772,"hostname":"DESKTOP-NIVBK89","msg":"/Public/styles/styles.css method:GET not found"}
 {"level":40,"time":1674437870436,"pid":5772,"hostname":"DESKTOP-NIVBK89","msg":"/public/styles/styles.css method:GET not found"}
+{"level":40,"time":1674602455346,"pid":5160,"hostname":"DESKTOP-G5OA5H3","msg":"/favicon.ico method:GET not found"}
+{"level":40,"time":1674602567569,"pid":5160,"hostname":"DESKTOP-G5OA5H3","msg":"/evelyncoronel05@gmail.com.jfif method:GET not found"}
+{"level":40,"time":1674602603458,"pid":5160,"hostname":"DESKTOP-G5OA5H3","msg":"/Public/uploads/evelyncoronel05@gmail.com.jfif method:GET not found"}
+{"level":40,"time":1674602608594,"pid":5160,"hostname":"DESKTOP-G5OA5H3","msg":"/evelyncoronel05@gmail.com.jfif method:GET not found"}
+{"level":40,"time":1674602655904,"pid":5160,"hostname":"DESKTOP-G5OA5H3","msg":"/Public/uploads/evelyncoronel05@gmail.com.jfif method:GET not found"}
+{"level":40,"time":1674602690658,"pid":5160,"hostname":"DESKTOP-G5OA5H3","msg":"/Public/uploads/evelyncoronel05@gmail.com.jfif method:GET not found"}
+{"level":40,"time":1674606000398,"pid":5612,"hostname":"DESKTOP-G5OA5H3","msg":"/favicon.ico method:GET not found"}
+{"level":40,"time":1674606021097,"pid":5612,"hostname":"DESKTOP-G5OA5H3","msg":"/Public/uploads/evelyncoronel05@gmail.com.jfif method:GET not found"}
+{"level":40,"time":1674606051516,"pid":5612,"hostname":"DESKTOP-G5OA5H3","msg":"/Public/uploads/evelyncoronel05@gmail.com.jfif method:GET not found"}
+{"level":40,"time":1674606109675,"pid":5612,"hostname":"DESKTOP-G5OA5H3","msg":"/Public/uploads/evelyncoronel05@gmail.com.jfif method:GET not found"}
+{"level":40,"time":1674606116219,"pid":5612,"hostname":"DESKTOP-G5OA5H3","msg":"/Public/uploads method:GET not found"}
+{"level":40,"time":1674606124098,"pid":5612,"hostname":"DESKTOP-G5OA5H3","msg":"/Public/uploads/Avatar1.png method:GET not found"}
+{"level":40,"time":1674606141615,"pid":5612,"hostname":"DESKTOP-G5OA5H3","msg":"//Public/uploads/Avatar1.png method:GET not found"}
+{"level":40,"time":1674606145112,"pid":5612,"hostname":"DESKTOP-G5OA5H3","msg":"/Public/uploads/Avatar1.png method:GET not found"}
+{"level":40,"time":1674606327669,"pid":5612,"hostname":"DESKTOP-G5OA5H3","msg":"/Public/index.js method:GET not found"}
+{"level":40,"time":1674606330975,"pid":5612,"hostname":"DESKTOP-G5OA5H3","msg":"/Public/index.js method:GET not found"}
+{"level":40,"time":1674606472464,"pid":5612,"hostname":"DESKTOP-G5OA5H3","msg":"/uploads/Avatar1.png method:GET not found"}
+{"level":40,"time":1674606510530,"pid":9988,"hostname":"DESKTOP-G5OA5H3","msg":"/uploads/Avatar1.png method:GET not found"}
+{"level":40,"time":1674606515221,"pid":9988,"hostname":"DESKTOP-G5OA5H3","msg":"/uploads/ method:GET not found"}
+{"level":40,"time":1674606524808,"pid":9988,"hostname":"DESKTOP-G5OA5H3","msg":"/config.js method:GET not found"}
+{"level":40,"time":1674606568487,"pid":9988,"hostname":"DESKTOP-G5OA5H3","msg":"/upoads/Avatar1.png method:GET not found"}
+{"level":40,"time":1674606573702,"pid":9988,"hostname":"DESKTOP-G5OA5H3","msg":"/upolads/Avatar1.png method:GET not found"}
+{"level":40,"time":1674606658595,"pid":11988,"hostname":"DESKTOP-G5OA5H3","msg":"/uploads/Public/uploads/Avatar11.png method:GET not found"}
+{"level":40,"time":1674606707882,"pid":11672,"hostname":"DESKTOP-G5OA5H3","msg":"/uploads/Public/uploads/Avatar11.png method:GET not found"}
+{"level":40,"time":1674607221550,"pid":12144,"hostname":"DESKTOP-G5OA5H3","msg":"/index.js method:GET not found"}
+{"level":50,"time":1674607258144,"pid":12144,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\Public\\cartView.ejs\" in views directory \"./views/pages\""}
+{"level":40,"time":1674607539187,"pid":10032,"hostname":"DESKTOP-G5OA5H3","msg":"/index.js method:GET not found"}
+{"level":50,"time":1674607601635,"pid":10032,"hostname":"DESKTOP-G5OA5H3","msg":"Error login user in..."}
+{"level":40,"time":1674607601851,"pid":10032,"hostname":"DESKTOP-G5OA5H3","msg":"/loginError method:GET not found"}
+{"level":40,"time":1674607664779,"pid":9792,"hostname":"DESKTOP-G5OA5H3","msg":"/index.js method:GET not found"}
+{"level":50,"time":1674607668247,"pid":9792,"hostname":"DESKTOP-G5OA5H3","msg":"Error login user in..."}
+{"level":50,"time":1674607668479,"pid":9792,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\Public\\views\\pages\\authenticaton\\loginError.ejs\" in views directory \"./views/pages\""}
+{"level":50,"time":1674607850475,"pid":9136,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\Public\\views\\pages\\authenticaton\\loginError.ejs\" in views directory \"./views/pages/auth\""}
+{"level":50,"time":1674607892515,"pid":6396,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\Public\\views\\pages\\authenticaton\\loginError.ejs\" in views directory \"./views/pages/authentication\""}
+{"level":40,"time":1674608116888,"pid":500,"hostname":"DESKTOP-G5OA5H3","msg":"/index.js method:GET not found"}
+{"level":50,"time":1674608123202,"pid":500,"hostname":"DESKTOP-G5OA5H3","msg":"Error login user in..."}
+{"level":50,"time":1674608123432,"pid":500,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\authenticaton\\loginError.ejs\" in views directory \"./views\""}
+{"level":50,"time":1674608180047,"pid":10352,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\authenticaton\\loginError.ejs\" in views directory \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\views\""}
+{"level":50,"time":1674608181963,"pid":10352,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\authenticaton\\loginError.ejs\" in views directory \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\views\""}
+{"level":50,"time":1674608255635,"pid":2252,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\authenticaton\\loginError.ejs\" in views directory \"./Public/views\""}
+{"level":50,"time":1674608328183,"pid":680,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\pages\\authentication\\loginError.ejs\" in views directory \"Public/views\""}
+{"level":50,"time":1674608330230,"pid":680,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\pages\\authentication\\loginError.ejs\" in views directory \"Public/views\""}
+{"level":50,"time":1674608331490,"pid":680,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\pages\\authentication\\loginError.ejs\" in views directory \"Public/views\""}
+{"level":50,"time":1674608332487,"pid":680,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\pages\\authentication\\loginError.ejs\" in views directory \"Public/views\""}
+{"level":50,"time":1674608460951,"pid":7828,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\pages\\authentication\\loginError.ejs\" in views directory \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\views\""}
+{"level":50,"time":1674608463242,"pid":7828,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\pages\\authentication\\loginError.ejs\" in views directory \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\views\""}
+{"level":50,"time":1674608504509,"pid":6772,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"pages/authentication/loginError.ejs\" in views directory \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\views\""}
+{"level":50,"time":1674608506320,"pid":6772,"hostname":"DESKTOP-G5OA5H3","msg":"unexpected error: Error: Failed to lookup view \"pages/authentication/loginError.ejs\" in views directory \"C:\\Users\\evely\\OneDrive\\Escritorio\\backend\\optic-store\\views\""}
+{"level":40,"time":1674608648194,"pid":2808,"hostname":"DESKTOP-G5OA5H3","msg":"/index.js method:GET not found"}
+{"level":40,"time":1674608650453,"pid":2808,"hostname":"DESKTOP-G5OA5H3","msg":"/index.js method:GET not found"}
+{"level":40,"time":1674608690464,"pid":2808,"hostname":"DESKTOP-G5OA5H3","msg":"/index.js method:GET not found"}
+{"level":50,"time":1674608720201,"pid":2808,"hostname":"DESKTOP-G5OA5H3","msg":"Error login user in..."}
+{"level":40,"time":1674608723185,"pid":2808,"hostname":"DESKTOP-G5OA5H3","msg":"/index.js method:GET not found"}
+{"level":40,"time":1674608738740,"pid":2808,"hostname":"DESKTOP-G5OA5H3","msg":"/index.js method:GET not found"}
+{"level":40,"time":1674609118827,"pid":6580,"hostname":"DESKTOP-G5OA5H3","msg":"/auth/styles/styles.css method:GET not found"}
+{"level":40,"time":1674609155610,"pid":6580,"hostname":"DESKTOP-G5OA5H3","msg":"/auth/styles/styles.css method:GET not found"}
+{"level":40,"time":1674609162391,"pid":6580,"hostname":"DESKTOP-G5OA5H3","msg":"/auth/styles/styles.css method:GET not found"}
+{"level":40,"time":1674609216658,"pid":11060,"hostname":"DESKTOP-G5OA5H3","msg":"/auth/styles/styles.css method:GET not found"}
+{"level":40,"time":1674609288518,"pid":11060,"hostname":"DESKTOP-G5OA5H3","msg":"/auth/styles/styles.css method:GET not found"}
+{"level":40,"time":1674609350375,"pid":7632,"hostname":"DESKTOP-G5OA5H3","msg":"/productLogic.js method:GET not found"}
+{"level":40,"time":1674609722861,"pid":8236,"hostname":"DESKTOP-G5OA5H3","msg":"/carts/cartView.js method:GET not found"}
+{"level":40,"time":1674609732746,"pid":8236,"hostname":"DESKTOP-G5OA5H3","msg":"/carts/cartView.js method:GET not found"}
+{"level":40,"time":1674609816307,"pid":8236,"hostname":"DESKTOP-G5OA5H3","msg":"/carts/Public/views/pages/cart/cartView.js method:GET not found"}
+{"level":40,"time":1674609831209,"pid":8236,"hostname":"DESKTOP-G5OA5H3","msg":"/Public/views/pages/cart/cartView.js method:GET not found"}
+{"level":40,"time":1674609859879,"pid":8236,"hostname":"DESKTOP-G5OA5H3","msg":"/carts/cartView.js method:GET not found"}
+{"level":40,"time":1674609862239,"pid":8236,"hostname":"DESKTOP-G5OA5H3","msg":"/carts/cartView.js method:GET not found"}
+{"level":40,"time":1674609880390,"pid":8236,"hostname":"DESKTOP-G5OA5H3","msg":"/cartView.js method:GET not found"}
+{"level":40,"time":1674609882559,"pid":8236,"hostname":"DESKTOP-G5OA5H3","msg":"/cartView.js method:GET not found"}
+{"level":40,"time":1674609916587,"pid":8236,"hostname":"DESKTOP-G5OA5H3","msg":"/Public/views/pages/cart/cartView.js method:GET not found"}
+{"level":40,"time":1674609919082,"pid":8236,"hostname":"DESKTOP-G5OA5H3","msg":"/Public/views/pages/cart/cartView.js method:GET not found"}
+{"level":40,"time":1674610454392,"pid":10796,"hostname":"DESKTOP-G5OA5H3","msg":"/uploads/Avatar10.png method:GET not found"}
+{"level":40,"time":1674610472451,"pid":10796,"hostname":"DESKTOP-G5OA5H3","msg":"/uploads/Avatar10.png method:GET not found"}

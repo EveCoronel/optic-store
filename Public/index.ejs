@@ -14,7 +14,7 @@
 <body>
     <nav>
         <div class="nav-bar">
-            <img class="img-thumbnail" height="200px" width="200px" src="<%= user.profilePicture %>" alt="">
+            <img class="img-thumbnail" height="200px" width="200px" src="/uploads/<%= user.profilePicture %>" alt="">
             <h2 class="">
                 Bienvenido, <%= user.email %>
                     <form id="logout-form" action="/auth/logout" method="POST">
@@ -24,7 +24,7 @@
                     </form>
 
             </h2>
-            <a href="/cart">
+            <a href="/carts/cart">
                 <button class="btn btn-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-cart" viewBox="0 0 16 16">
@@ -78,6 +78,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
     crossorigin="anonymous"></script>
-<script src="./fetch.js"></script>
+<script src="./index.js"></script>
 
 </html>

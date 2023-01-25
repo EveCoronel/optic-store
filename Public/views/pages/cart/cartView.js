@@ -19,7 +19,7 @@ btnCheckOut.addEventListener("click", event => {
             console.log(error)
         });
 
-    fetch(`./carts/${cart}`, {
+    fetch(`./${cart}`, {
         method: 'DELETE'
     })
         .then(response => response.json())
@@ -28,7 +28,7 @@ btnCheckOut.addEventListener("click", event => {
             console.log(error)
         });
 
-    window.location.assign('./');
+    window.location.assign('../home');
 
 });
 
@@ -38,7 +38,7 @@ btnCheckOut.addEventListener("click", event => {
 cartContainer.addEventListener("click", event => {
     if (event.target.classList.contains("deleteProduct-btn")) {
         const productId = event.target.getAttribute("data-deleteProduct");
-        fetch(`carts/${cart}/products/${productId}`, {
+        fetch(`/carts/${cart}/products/${productId}`, {
             method: "DELETE",
             headers: { "Content-Type": "application/json" }
         })
@@ -52,4 +52,3 @@ cartContainer.addEventListener("click", event => {
             });
     }
 });
-
